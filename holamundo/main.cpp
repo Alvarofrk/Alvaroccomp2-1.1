@@ -4,13 +4,19 @@ using namespace std;
 
 int main()
 {
-    int x=5;
-    int y=6;
-    int z=x+y;
-    cout<<"el primer numero: "<<x<<endl;
-    cout<<"el segundo numero: "<<y<<endl;
-    cout<<"la suma es :"<<z<<endl;
+    float x=0;
+    float y=0;
+    cout<<"ingresa el primer numero: ";
+    cin>>x;
+    cout<<endl;
+    cout<<"ingresa el segundo numero: ";
+    cin>>y;
+    cout<<endl;
+	cout<<"la suma es :"<<x+y<<endl;
     cout<<"la multiplicacion es:"<<x*y<<endl;
     cout<<"la resta es: "<<x-y<<endl;
-    return 0;
+    cout<<"la divicion es: "<<x/y<<endl;
+    
+    
+	return 0;
 }
