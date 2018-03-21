@@ -9,6 +9,8 @@ int main()
     int z=x+y;
     cout<<"el primer numero: "<<x<<endl;
     cout<<"el segundo numero: "<<y<<endl;
-    cout<<"la respuesta es :"<<z<<endl;
+    cout<<"la suma es :"<<z<<endl;
+    cout<<"la multiplicacion es:"<<x*y<<endl;
+    cout<<"la resta es: "<<x-y<<endl;
     return 0;
 }
